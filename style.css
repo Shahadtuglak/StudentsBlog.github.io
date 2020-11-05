@@ -10706,7 +10706,7 @@ p {
 #contact {
     padding: 6rem;
     text-align: center;
-    background-color: var(--dark);
+    background-color:#BC986A;
 }
 
 .icons {
@@ -10727,7 +10727,7 @@ p {
 
 #features {
     padding: 7% 15%;
-    background-color: #654321;
+    background-color: #BC986A;
 }
 
 .feature-box {
