@@ -4570,7 +4570,7 @@ input[type="button"].btn-block {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    background-color:#BC986A;
+    background-color: #BC986A;
 }
 
 .navbar .container,
@@ -10706,7 +10706,7 @@ p {
 #contact {
     padding: 6rem;
     text-align: center;
-    background-color:#BC986A;
+    background-color: #BC986A;
 }
 
 .icons {
@@ -10742,4 +10742,19 @@ h3 {
     font-weight: bolder;
     text-align: center;
     padding: 50px;
+}
+
+
+/* Roadmap */
+
+h1 {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.webdev {
+    width: 100%;
 }
