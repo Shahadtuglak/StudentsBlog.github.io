@@ -10640,6 +10640,9 @@ body {
 .navbar {
     padding: 5rem;
 }
+nav h4:hover {
+    color: white;
+}
 
 .nav-link {
     color: white;
