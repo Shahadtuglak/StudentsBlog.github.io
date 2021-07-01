@@ -10677,11 +10677,6 @@ p {
 
 /* Introduction */
 
-#intro {
-    padding: 2rem;
-    text-align: center;
-    padding: 8rem;
-}
 
 
 /* Subject Section */
@@ -10689,11 +10684,7 @@ p {
 
 /* About Section */
 
-#about {
-    padding: 2rem;
-    text-align: center;
-    padding: 6rem;
-}
+
 
 .padding {
     padding-top: 5%;
@@ -10740,6 +10731,13 @@ p {
 h3 {
     font-weight: bolder;
 }
+h5{
+    color:black;
+}
+a{
+    color:red;
+    text-decoration: none !important;
+}
 
 #services {
     font-weight: bolder;
@@ -10760,4 +10758,49 @@ main {
 
 .webdev {
     margin: auto;
+}
+
+
+/* Media Queries */
+
+
+  
+/* Desktop Screen */
+  @media (min-width: 1024px) {
+   
+    
+    #intro, #about {
+  
+    text-align: center;
+    padding: 8rem;
+    }
+  
+ }
+
+    
+ /* Tablet Screen */
+  @media (min-width: 769px) and (max-width: 1023px) {
+       
+    #intro, #about {
+      
+        text-align: center;
+        padding: 5rem;
+    }
+    
+
+}
+
+
+  
+/* Small Screen / Mobile */
+  @media (max-width: 768px) {
+
+     
+    #intro, #about {
+        
+        text-align: center;
+        padding: 10px;
+    }
+   
+  
 }
