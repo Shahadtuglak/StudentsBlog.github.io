@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page | STUDENT'S BLOG</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: serif;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+        }
+
+        header {
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+<header>
+    <h1>STUDENT'S BLOG</h1>
+    <hr>
+    <h3>Enter Details for Signup</h3>
+</header>
+
+
+<section class="container">
+    <form method="POST" action="signup.php">
+        <div class="mb-4">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" name="name" class="form-control" id="name" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-4">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" name="username" class="form-control" id="username">
+        </div>
+        <div class="mb-4">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" id="password">
+            <div id="passwordHelpBlock" class="form-text">
+                Your password must be 8-20 characters long.
+            </div>
+        </div>
+        <div class="mb-4">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" class="form-control" id="email">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-4">
+            <label for="collegename" class="form-label">Enter College Name</label>
+            <input type="text" name="collegename" class="form-control" id="collegename">
+        </div>
+
+        <button type="submit" class="btn btn-dark">Signup</button>
+        <hr>
+        <h5>Already have account?</h5>
+        <a href="login.html" class="btn btn-primary">Login</a>
+
+    </form>
+
+</section>
+
+<body>
+
+</body>
+
+</html>
